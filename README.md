@@ -1,6 +1,6 @@
 # WebVR
 
-See here a list of the demo's. Code on GitHub Tutorials on YouTube.
+See here a list of the demo's. Code on GitHub and tutorials on YouTube.
 
 - [Train][2]
 - [Temple][3]
