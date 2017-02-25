@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="object" src="models/pokeball-vray.obj"></a-asset-item>
+            <a-asset-item id="material" src="models/pokeball-vray.mtl"></a-asset-item>
+        </a-assets>
+
+        <a-obj-model src="#object" mtl="#material"></a-obj-model>
+        <a-entity position="0 200 150">
+            <a-camera></a-camera>
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
