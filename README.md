@@ -1,6 +1,6 @@
 # WebVR
 
-Some tutorials I've made for WebVR. Make for my internship at [Poppr][1].
+Some tutorials I've made for WebVR. Made this for my internship at [Poppr][1].
 
 - [Train][2]
 - [Temple][3]
