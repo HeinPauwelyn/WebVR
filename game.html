@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="texture" src="images/texture.jpg" />
+            <img id="train" src="images/sky.jpg" />
+            <a-asset-item id="object" src="models/pokeball-vray.obj"></a-asset-item>
+            <a-asset-item id="material" src="models/pokeball-vray.mtl"></a-asset-item>
+        </a-assets>
+
+        <a-obj-model src="#object" mtl="#material" id="pokeball" position="0 3 100" scale="0.2 0.2 0.2">
+            <a-animation attribute="rotation" repeat="indefinite" to="10 1440 10" dur="10000"></a-animation>
+        </a-obj-model>
+
+        <a-camera position="0 3 5">
+            <a-cursor color="red"></a-cursor>
+        </a-camera>
+
+        <a-entity oculus-touch-controls="hand: left"></a-entity>
+
+        <!--<a-light type="spot" color="rgba(255, 230, 11, 0.25)" position="-20 0 0" look-at="#pokeball"></a-light>-->
+        <a-sky src="images/sky.jpg"></a-sky>
+    </a-scene>
+</body>
+
+</html>

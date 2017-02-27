@@ -1,7 +1,7 @@
 # Blender v2.74 (sub 0) OBJ File: ''
 # www.blender.org
-mtllib pokeball-vray.mtl
-o Cylinder_1_8
+# mtllib pokeball-vray.mtl
+# o Cylinder_1_8
 v 26.725000 71.043999 -68.264397
 v 26.796101 70.250000 -67.892899
 v 12.991100 68.691299 -69.622498
